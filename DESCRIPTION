@@ -1,0 +1,19 @@
+Package: aws.secretsmanager
+Title: Access AWS Secrets Manager API
+Version: 0.1.0
+Authors@R: 
+    person(given = "Jack",
+           family = "Vanlightly",
+           role = c("aut", "cre"),
+           email = "jack.vanlightly@gmail.com")
+Description: Allows you to perform actions on and retrieve secrets from AWS Secrets Manager.
+License: GPL (>= 2)
+Encoding: UTF-8
+LazyData: true
+Imports: 
+    aws.signature,
+    curl,
+    httr,
+    xml2,
+    jsonlite
+RoxygenNote: 6.1.0
