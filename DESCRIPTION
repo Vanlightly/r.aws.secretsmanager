@@ -15,5 +15,6 @@ Imports:
     curl,
     httr,
     xml2,
-    jsonlite
+    jsonlite,
+    uuid
 RoxygenNote: 6.1.0
